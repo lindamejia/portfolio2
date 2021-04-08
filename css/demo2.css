@@ -1,0 +1,16 @@
+/* Color schemes */
+.demo-2 {
+	--color-text: #000;
+	--color-bg: #F9F8F9;
+	--color-link: #121212;
+	--color-link-hover:rgb(53, 53, 53);
+	--color-info: #AFBAB7;
+	--color-main-text: #AFBAB7;
+	--color-scroll-text: #000;
+	--font-scroll-text: 'Lato', sans-serif;
+	--fontsize-scroll-text: 6vw;
+}
+
+.content__main {
+	color: var(--color-main-text);
+}

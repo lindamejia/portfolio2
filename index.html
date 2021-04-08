@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linda Mejia</title>
+    <link href="http://fonts.cdnfonts.com/css/post-no-bills-jaffna" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- scrolling letters -->
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo2.css" />
+    <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+    <!-- scrolling letters -->
+</head>
+
+<body class="demo-2 loading">
+
+    <main>
+        <div id="line1"></div>
+        <div id="line3"></div>
+        <nav class="navbar fixed-top navbar-light">
+            <a href="index.html" class="navbar-brand">
+                <h1>Linda I Mejia</h1>
+            </a>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#home-anchor">HOME</a>
+                    <a href="#projects-anchor">PROJECTS</a>
+                    <a href="#about-anchor">ABOUT</a>
+                    <a href="#contact-anchor">CONTACT</a>
+                </div>
+            </div>
+            <span id="nav-burger" onclick="openNav()">&#9776;</span>
+        </nav>
+        <!-- home -->
+        <a name="home-anchor"></a>
+        <div class="content">
+            <div class="content__section">
+                <div class="content__main">
+                    <a class="navbar-link" href="#projects-anchor">
+                        <p id="projects">PROJECTS</p>
+                    </a>
+                    <a class="navbar-link" href="#about-anchor">
+                        <p id="about">ABOUT</p>
+                    </a>
+                    <a class="navbar-link" href="#contact-anchor">
+                        <p id="contact">CONTACT</p>
+                    </a>
+                    <h2 class="content__text">home</h2>
+                </div>
+            </div>
+
+            <!-- projects -->
+            <a name="projects-anchor"></a>
+            <div class="projects">
+                <div class="container">
+                    <!-- Activities Index -->
+                    <div class="content__section">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <h3>Description</h3>
+                                <p>
+                                    The United Nations’ Sustainable Development Goals (SDGs), are a set of metrics that
+                                    tracks
+                                    global challenges including poverty, inequality, and climate change. The Activities
+                                    Index is
+                                    designed to support private and public sector contributions to key projects
+                                    advancing
+                                    the SDGs
+                                    in Los Angeles.
+                                </p>
+                                <h3>Technologies</h3>
+                                <p>React.js<br />Formik <br />Node.js</p>
+
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <a href="https://sdg.lamayor.org/activities-index">
+                                    <div class="images">
+                                        <div class="promo" style="--overlay-color: #ced9f5">
+                                            <div class="image-wrapper">
+                                                <img src="images/activities.png" />
+                                            </div>
+                                            <p class="title" data-cta="View Project →"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="github">
+                                    <a href="https://github.com/lindamejia/SDG-Activities-Index" class="button">View
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="content__text">Activities Index</h2>
+                    </div>
+
+                    <!-- SDG Data -->
+                    <div class="content__section">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <h3>Description</h3>
+                                <p>
+                                    Increased the versatility of the Data Reporting Platform to effectively visualize
+                                    245 diverse data sets as well as introduced a trend and gap analysis towards 2030.
+                                </p>
+                                <h3>Technology</h3>
+                                <p> Jekyll<br />Github<br />CircleCI <br /> D3.js</p>
+
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <a href="https://sdgdata.lamayor.org/">
+                                    <div class="images">
+                                        <div class="promo" style="--overlay-color: #ced9f5">
+                                            <div class="image-wrapper"><img src="images/sdg.png" /></div>
+                                            <p class="title" data-cta="View Project →"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="github">
+                                    <a href="https://github.com/lindamejia/sdg-site-la" class="button">View
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="content__text">SDGs Data Reporting Platform</h2>
+                    </div>
+                    <!-- What So Not -->
+                    <div class="content__section">
+
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <!-- <h3>Description</h3>
+                                <p>
+                                    Redesigned and implemented changes to Austrlian Music Producer, What So Not's
+                                    website.
+                                </p> -->
+                                <h3>Technology</h3>
+                                <p>HTML<br />CSS<br />Javascript</p>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <a href="https://whatsonot.com/">
+                                    <div class="images">
+                                        <div class="promo" style="--overlay-color: #ced9f5">
+                                            <div class="image-wrapper"><img src="images/wsn.png" /></div>
+                                            <p class="title" data-cta="View Project →"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <h2 class="content__text">What So Not</h2>
+                    </div>
+                    <!-- Valentino Khan -->
+                    <div class="content__section">
+
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <!-- <h3>Description</h3>
+                                <p>
+                                    Redesigned and implemented changes to Austrlian Music Producer, Valntino Khan
+                                    website.
+                                </p> -->
+                                <h3>Technology</h3>
+                                <p>HTML<br />CSS<br />Javascript</p>
+
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <a href="https://valentinokhan.com/">
+                                    <div class="images">
+                                        <div class="promo" style="--overlay-color: #ced9f5">
+                                            <div class="image-wrapper"><img src="images/vk.png" /></div>
+                                            <p class="title" data-cta="View Project →"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="github">
+                                    <a href="https://github.com/lindamejia/VK-website" class="button">View
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="content__text">Valentino Khan</h2>
+                    </div>
+                    <!-- DJ4B -->
+                    <div class="content__section">
+
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <!-- <h3>Description</h3>
+                                <p>
+                                    orem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                </p> -->
+                                <h3>Technology</h3>
+                                <p>HTML<br />CSS<br />Javascript</p>
+
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <a href="https://www.dj4b.com/">
+                                    <div class="images">
+                                        <div class="promo" style="--overlay-color: #ced9f5">
+                                            <div class="image-wrapper"><img src="images/4b.png" /></div>
+                                            <p class="title" data-cta="View Project →"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="github">
+                                    <a href="https://github.com/lindamejia/DJ4B" class="button">View Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="content__text">DJ4B</h2>
+                    </div>
+                    <!-- Maca Media -->
+                    <div class="content__section">
+
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <!-- <h3>Description</h3>
+                                <p>
+                                    orem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum
+                                </p> -->
+                                <h3>Technology</h3>
+                                <p>HTML<br />CSS<br />Javascript</p>
+
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <a href="https://upbeat-murdock-9fd893.netlify.app/">
+                                    <div class="images">
+                                        <div class="promo" style="--overlay-color: #ced9f5">
+                                            <div class="image-wrapper"><img src="images/maca.png" /></div>
+                                            <p class="title" data-cta="View Project →"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="github">
+                                    <a href="https://github.com/lindamejia/MacaMedia" class="button">View
+                                        Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="content__text">Maca Media</h2>
+                    </div>
+                    <!-- Crowley Corporate Legal Strategy -->
+                    <div class="content__section">
+
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <!-- <h3>Description</h3> -->
+                                <!-- <p>
+                                    orem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum
+                                </p> -->
+                                <h3>Technology</h3>
+                                <p>HTML<br />CSS<br />Javascript</p>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="images">
+                                    <div class="promo" style="--overlay-color: #ced9f5">
+                                        <div class="image-wrapper">
+                                            <img src="images/crowley.png" />
+                                        </div>
+                                        <p class="title" data-cta="View Project →"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="content__text">Crowley Corporate Legal Strategy</h2>
+                    </div>
+
+                    <!-- NJ Diagnostic Lab -->
+                    <div class="content__section">
+
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12">
+                                <!-- <h3>Description</h3> -->
+                                <!-- <p>
+                                    orem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                    sunt in culpa qui officia deserunt mollit anim id est laborum
+                                </p> -->
+                                <h3>Technology</h3>
+                                <p>Wordpress</p>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="images">
+                                    <div class="promo" style="--overlay-color: #ced9f5">
+                                        <div class="image-wrapper">
+                                            <img src="images/njdl.png" />
+                                        </div>
+                                        <p class="title" data-cta="View Project →"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="content__text">New Jersey Diagnostic Lab</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- about -->
+            <a name="about-anchor"></a>
+            <div class="content__section">
+                <div class="container">
+                    <div class="col-md-6 offset-md-3">
+                        <h2 class= "about-title">About Me</h2>
+                        <p>
+                            I am a web developer with several years of experience. Throughout my journey, I've designed
+                            and developed custom websites for music producers, lawyers, medical practices, and the City
+                            of Los Angeles.
+                        </p>
+                        <p>
+                            I have worked with large databases as a full stack developer but my passion is in front-end
+                            development and design. I value simple content layout, clean design, and intuitive
+                            interactions.
+
+                        </p>
+                    </div>
+                </div>
+                <h2 class="content__text">About</h2>
+            </div>
+            <!-- Contact form  -->
+            <a name="contact-anchor"></a>
+            <div class="content__section">
+                <div class="contactForm">
+                    <div class="container">
+                        <form action="https://formspree.io/lindaisamarmejia@gmail.com" method="POST">
+                            <div>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-3 col-sm-11 col-xs-11">
+                                        <label class="label">Name: </label>
+                                        <br />
+                                        <input type="text" name="name" class="input" />
+                                    </div>
+                                    <div class="col-md-3 col-offset-1 col-sm-11 col-xs-11">
+                                        <label class="label">Email: </label>
+                                        <br />
+                                        <input type="email" name="_replyto" class="input" />
+                                    </div>
+                                    <div class="col-md-3 col-offset-1 col-sm-11 col-xs-11">
+                                        <label class="label">Subject: </label>
+                                        <br />
+                                        <input type="text" name="subject" class="input" />
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="col-12">
+                                    <label class="label">Message: </label>
+                                    <br />
+                                    <textarea type="text" name="message" class="textArea"></textarea>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="submit" value="SEND" class="button" />
+                            </div>
+                        </form>
+                        <span>
+                            <a href="https://www.linkedin.com/in/lindamejia/">
+                                <img src="images/linkedin.png" width="50px" height="auto" /> </a>
+                            <a href="https://github.com/lindamejia">
+                                <img src="images/github.png" width="50px" height="auto" /></a></span>
+                    </div>
+                </div>
+                <h2 class="content__text">contact</h2>
+            </div>
+    </main>
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+        // display navbar on scroll
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+                document.getElementById("nav-burger").style.top = "15px";
+            } else {
+                document.getElementById("nav-burger").style.top = "-50px";
+            }
+        }
+
+    </script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/charming.min.js"></script>
+    <script src="js/demo2.js"></script>
+</body>
+
+</html>
